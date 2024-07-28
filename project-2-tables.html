@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Tables</title>
+    <style>
+      * {
+        text-align: center;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 50%;
+        margin: 20px auto;
+      }
+
+      td {
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        padding: 8px;
+      }
+
+      .table-hobbys tr:first-child {
+        background-color: green;
+      }
+
+      .table-movies tr:nth-child(2) {
+        background-color: red;
+      }
+
+      .table-songs tr:nth-child(3) {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Multiple Tables</h1>
+    </header>
+
+    <main>
+      <section>
+        <table class="table-hobbys" border="1px">
+          <tr>
+            <th>Hobby</th>
+          </tr>
+          <tr>
+            <td>Listening to music</td>
+          </tr>
+          <tr>
+            <td>Drinking coffee</td>
+          </tr>
+          <tr>
+            <td>Reading</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <table class="table-movies" border="1px">
+          <tr>
+            <th>Movie</th>
+            <th>Genre</th>
+          </tr>
+          <tr>
+            <td>Pengabdi Setan</td>
+            <td>Horor</td>
+          </tr>
+          <tr>
+            <td>Who Im a</td>
+            <td>Comedy Action</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <table class="table-songs" border="1px">
+          <tr>
+            <th>Song</th>
+            <th>Artist</th>
+          </tr>
+          <tr>
+            <td>Kita Ke Sana</td>
+            <td>Hindia</td>
+          </tr>
+          <tr>
+            <td>Untuk Perempuan Yang Sedang Di Pelukan</td>
+            <td>Payung Teduh</td>
+          </tr>
+          <tr>
+            <td>Rumah Ke Rumah</td>
+            <td>Hindia</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
